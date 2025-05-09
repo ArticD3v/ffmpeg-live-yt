@@ -12,7 +12,7 @@ RUN apt update && \
 WORKDIR /app
 
 # Copy your Python files to the container
-COPY main.py keep_alive.py ./
+COPY room.mp4 main.py keep_alive.py ./
 
 # Install Flask
 RUN pip3 install flask
